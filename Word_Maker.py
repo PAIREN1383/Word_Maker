@@ -53,6 +53,9 @@ while True:
         Flag = True
     else:
         Flag = False
+    if Flag == False and Count > len(lets):
+        print("<<< Error: can not make any word. >>>")
+        continue
     len_lets = len(lets)
     len_words = 1
     division = 1
