@@ -70,10 +70,9 @@ while True:
     print("<-------------------------/^\/^\/^\| RESULT |/^\/^\/^\------------------------->\
         \nThe number of words:", len_words)
     All_words = W_Maker(lets, Count, len_words, Flag)
-    Num = 1
-    for word in All_words:
-        print(f"{Num}: {word}")
-        Num += 1
+    
+    for i, word in enumerate(All_words):
+        print(f"{i+1}: {word}")
     
 # Author: M == PAIREN
 # Contact Me: https://t.me/V_d_P_h_K
