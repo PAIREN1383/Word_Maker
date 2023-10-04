@@ -24,6 +24,7 @@ def W_Maker(letters, count, len_words, flag):
 while True:
     lets = input("<<<<<<<<<<<<<----------------------------------- Letters ----------------------------------->>>>>>>>>>>>>\
         \nThis tool builds words and helps you solve tables.\
+        \nEnter 'Q' to exit.\
         \nEnter a few letters and split them with space: ").strip()
     if lets.lower() == "exit" or lets.lower() == "e" or lets.lower() == "quit" or lets.lower() == "q":
         break
